@@ -1,0 +1,11 @@
+# Other specifically hidden files
+*.hide
+
+# Unecessary
+src/dreamindex/logs/*.log
+
+# Privacy
+src/dreamindex/databases/*
+!src/dreamindex/databases/test_database.db
+!src/dreamindex/databases/test_database.db-journal
+.vscode/extensions.json
